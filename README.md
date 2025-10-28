@@ -32,6 +32,8 @@ To build a serverless, automated system for identifying potentially exposed cred
 
 ---
 
+* **SQL Query:** The core BigQuery hunt query is defined within `main.py` and is also available for easier viewing in `hunt_query.sql`.
+
 ## Setup & Deployment Summary 🚀
 1.  **GCP Project Setup:** Created project `secops-secret-scanner`, enabled necessary APIs.
 2.  **BigQuery Setup:** Created dataset `secret_scanner_results` and table `confirmed_leaks`.
